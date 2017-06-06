@@ -10,7 +10,7 @@ class SyncService {
             return 'sync';
         });
 
-        Route::post('/sync/page','\Modules\Sync\Controllers\SyncController@syncPage');
+        \Route::post('/sync/page','\Modules\Sync\Controllers\SyncController@syncPage');
 
         return 1;
 
